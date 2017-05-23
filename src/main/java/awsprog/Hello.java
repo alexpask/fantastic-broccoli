@@ -3,6 +3,8 @@ package awsprog;
 class Hello {
 	private String name;
 	
+	Hello() {}
+	
 	Hello(String name) {
 		this.setName(name);
 	}

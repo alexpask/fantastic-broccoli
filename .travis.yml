@@ -1,2 +1,5 @@
 language: java
 jdk: oraclejdk8
+deploy:
+  provider: heroku
+  api_key: $HEROKU_AUTH_TOKEN
